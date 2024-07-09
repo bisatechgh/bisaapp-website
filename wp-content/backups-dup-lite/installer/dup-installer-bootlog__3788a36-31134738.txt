@@ -1,0 +1,36 @@
+[May 31 14:20:18] 
+[May 31 14:20:18] ==DUPLICATOR INSTALLER BOOTSTRAP v1.5.9==
+[May 31 14:20:18] ----------------------------------------------------
+[May 31 14:20:18] Installer bootstrap start
+[May 31 14:20:18] Ready to extract the installer
+[May 31 14:20:18] Checking permission of destination folder
+[May 31 14:20:18] Expand directory from offset 203794178
+[May 31 14:20:19] SAPI: litespeed
+[May 31 14:20:19] creating /home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/.user.ini with the content:
+[May 31 14:20:19] max_execution_time = 3600
+max_input_time = -1
+ignore_user_abort = On
+post_max_size = 4096M
+upload_max_filesize = 4096M
+memory_limit = 4294967296
+default_socket_timeout = 3600
+pcre.backtrack_limit = 99999999999
+[May 31 14:20:19] Set permissions of dup-installer<br/>
+[May 31 14:20:19] Set permissions of dup-installer/addons<br/>
+[May 31 14:20:19] Set permissions of dup-installer/assets<br/>
+[May 31 14:20:19] Set permissions of dup-installer/classes<br/>
+[May 31 14:20:19] Set permissions of dup-installer/ctrls<br/>
+[May 31 14:20:19] Set permissions of dup-installer/favicon<br/>
+[May 31 14:20:19] Set permissions of dup-installer/libs<br/>
+[May 31 14:20:19] Set permissions of dup-installer/original_files_[HASH]<br/>
+[May 31 14:20:19] Set permissions of dup-installer/src<br/>
+[May 31 14:20:19] Set permissions of dup-installer/templates<br/>
+[May 31 14:20:19] Set permissions of dup-installer/vendor<br/>
+[May 31 14:20:19] Set permissions of dup-installer/.user.ini<br/>
+[May 31 14:20:19] Set permissions of dup-installer/dup-archive__[HASH].txt<br/>
+[May 31 14:20:19] Set permissions of dup-installer/dup-scan__[HASH].json<br/>
+[May 31 14:20:19] Set permissions of dup-installer/dup-scanned-dirs__[HASH].txt<br/>
+[May 31 14:20:19] Set permissions of dup-installer/dup-scanned-files__[HASH].txt<br/>
+[May 31 14:20:19] Set permissions of dup-installer/index.php<br/>
+[May 31 14:20:19] Set permissions of dup-installer/main.installer.php<br/>
+[May 31 14:20:19] DONE: No detected errors so redirecting to the main installer. Main Installer URI = https://bisaapp.com/dup-installer/main.installer.php

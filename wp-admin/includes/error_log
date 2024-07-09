@@ -1,0 +1,8 @@
+[16-Feb-2024 16:09:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/dre3ey2vp967/public_html/bisaapp.com/wp-admin/includes/file.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/dre3ey2vp967/public_html/bisaapp.com/wp-admin/includes/file.php on line 16
+[12-Jun-2024 11:30:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/dre3ey2vp967/public_html/bisaapp.com/wp-admin/includes/file.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/dre3ey2vp967/public_html/bisaapp.com/wp-admin/includes/file.php on line 16

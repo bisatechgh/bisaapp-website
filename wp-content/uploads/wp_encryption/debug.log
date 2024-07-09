@@ -1,0 +1,38 @@
+<b>7.2.0  SINGLE DOMAIN SSL 1 - https://bisaapp.com - ROOT</b>
+Domain covered:
+["bisaapp.com","www.bisaapp.com"]
+
+[04-06-2024 16:35:09] :
+No account found, attempting to create account.
+
+[04-06-2024 16:35:11] :
+LEClient finished constructing
+
+[04-06-2024 16:35:11] :
+No order found for 'bisaapp.com'. Creating new order.
+
+[04-06-2024 16:35:13] :
+Created order for 'bisaapp.com'.
+
+Offering manual verification procedure. 
+
+Syncing debug log
+Local check - All HTTP challenges verified
+
+[04-06-2024 16:37:34] :
+LEClient finished constructing
+
+[04-06-2024 16:37:34] :
+Order object is {"status":"pending","expires":"2024-06-11T16:35:11Z","identifiers":[{"type":"dns","value":"bisaapp.com"},{"type":"dns","value":"www.bisaapp.com"}],"authorizations":["https:\/\/acme-v02.api.letsencrypt.org\/acme\/authz-v3\/359627269537","https:\/\/acme-v02.api.letsencrypt.org\/acme\/authz-v3\/359627269547"],"finalize":"https:\/\/acme-v02.api.letsencrypt.org\/acme\/finalize\/1763516867\/275425270427"}
+
+Starting HTTP verification
+Finalizing the order
+[04-06-2024 16:37:43] :
+Order for 'bisaapp.com' finalized.
+
+Getting SSL certificates
+[04-06-2024 16:37:43] :
+Certificate for 'bisaapp.com' saved
+
+<h2>SSL Certificate generated successfully!</h2>
+Syncing debug log

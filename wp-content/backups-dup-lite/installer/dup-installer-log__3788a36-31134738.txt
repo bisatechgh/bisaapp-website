@@ -1,0 +1,1233 @@
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-0 START @ 02:20:20
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |Linux
+PHP VERSION_________: 8.1.28                                |8.1.28
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 8.1.28 | SAPI: litespeed
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache
+DOC ROOT____________: "/home/dre3ey2vp967/public_html/bisaapp.com"
+REQUEST URL_________: "https://bisaapp.com"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[blogname]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+SECURE MODE_________: "archive"
+URL PLUGINS_________: https://new.bisaapp.com/wp-content/plugins
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "/home/dre3ey2vp967/public_html/bisaapp.com"
+URL_NEW_____________: "https://bisaapp.com"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "/home/dre3ey2vp967/public_html/bisaapp.com/20240531_bisahealthapp_[HASH]_20240531134738_archive.daf"
+ARCHIVE SIZE________: 196.59MB
+CREATED_____________: 2024-05-31 13:47:38
+WP VERSION__________: 6.5.3
+DUP VERSION_________: 1.5.9
+LICENSE_____________: Free version
+DB VERSION__________: 10.6.17
+DB FILE SIZE________: 35.53MB
+DB TABLES___________: 54
+DB ROWS_____________: 6636
+URL HOME____________: https://new.bisaapp.com
+URL CORE____________: https://new.bisaapp.com
+URL CONTENT_________: https://new.bisaapp.com/wp-content
+URL UPLOAD__________: https://new.bisaapp.com/wp-content/uploads
+URL PLUGINS_________: https://new.bisaapp.com/wp-content/plugins
+URL MU PLUGINS______: https://new.bisaapp.com/wp-content/mu-plugins
+URL THEMES__________: https://new.bisaapp.com/wp-content/themes
+PATH HOME___________: /home/dre3ey2vp967/public_html/new.bisaapp.com
+PATH ABS____________: /home/dre3ey2vp967/public_html/new.bisaapp.com
+PATH WPCONFIG_______: /home/dre3ey2vp967/public_html/new.bisaapp.com
+PATH WPCONTENT______: /home/dre3ey2vp967/public_html/new.bisaapp.com/wp-content
+PATH UPLOADS________: /home/dre3ey2vp967/public_html/new.bisaapp.com/wp-content/uploads
+PATH PLUGINS________: /home/dre3ey2vp967/public_html/new.bisaapp.com/wp-content/plugins
+PATH MUPLUGINS______: /home/dre3ey2vp967/public_html/new.bisaapp.com/wp-content/mu-plugins
+PATH THEMES_________: /home/dre3ey2vp967/public_html/new.bisaapp.com/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "new.bisaapp.com/"
+
+PLUGINS
+PLUGIN [SLUG:akismet/akismet.php                               ][ON:false]  Akismet Anti-spam: Spam Protection
+PLUGIN [SLUG:depicter/depicter.php                             ][ON:true ]  Depicter
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:true ]  Duplicator
+PLUGIN [SLUG:elementor/elementor.php                           ][ON:true ]  Elementor
+PLUGIN [SLUG:elementor-pro/elementor-pro.php                   ][ON:true ]  Elementor Pro
+PLUGIN [SLUG:bdthemes-element-pack-lite/bdthemes-element-pack-lite.php][ON:true ]  Element Pack Lite - Addons for Elementor
+PLUGIN [SLUG:envato-elements/envato-elements.php               ][ON:true ]  Envato Elements
+PLUGIN [SLUG:forminator/forminator.php                         ][ON:true ]  Forminator
+PLUGIN [SLUG:limit-login-attempts-reloaded/limit-login-attempts-reloaded.php][ON:true ]  Limit Login Attempts Reloaded
+PLUGIN [SLUG:wordfence/wordfence.php                           ][ON:true ]  Wordfence Security
+PLUGIN [SLUG:wordpress-importer/wordpress-importer.php         ][ON:true ]  WordPress Importer
+PLUGIN [SLUG:wp-letsencrypt-ssl/wp-letsencrypt.php             ][ON:true ]  WP Encryption - One Click SSL & Force HTTPS
+PLUGIN [SLUG:wp-mail-smtp/wp_mail_smtp.php                     ][ON:true ]  WP Mail SMTP
+PLUGIN [SLUG:automation-by-installatron.php                    ][ON:false]  WordPress automation by Installatron
+
+********************************************************************************
+SECURE CHECK -> GO TO SECURE PAGE
+LOG-TIME[/home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.04890]  MESSAGE:END RENDER PAGE
+LOG-TIME[/home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [pwdcheck] START
+AJAX ACTION [pwdcheck] SUCCESS
+-------------------------
+
+LOG-TIME[/home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+STEP ACTION: "initialized"
+LOG-TIME[/home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.12455]  MESSAGE:END RENDER PAGE
+LOG-TIME[/home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+[PHP ERR][E_DEPRECATED] MSG:mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated [CODE:8192|FILE:/home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/classes/database/class.db.functions.php|LINE:498]
+DB QUERY [ERROR][/home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/classes/database/class.db.php:645] MSG: Incorrect database name ''
+	SQL: SHOW TABLES FROM `` WHERE `Tables_in_` IN ('pegvj_users','pegvj_usermeta')
+TRACE[1] CLASS___: DUPX_DB::mysqli_query      FILE: /home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/classes/database/class.db.functions.php[506]
+TRACE[2] CLASS___: DUPX_DB_Functions->tablesExist FILE: /home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/classes/class.installer.state.php[362]
+TRACE[3] CLASS___: DUPX_InstallerState->getAdminUsersOnOverwriteDatabase FILE: /home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/classes/class.installer.state.php[118]
+TRACE[4] CLASS___: DUPX_InstallerState->checkState FILE: /home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/ctrls/classes/class.ctrl.params.php[173]
+TRACE[5] CLASS___: DUPX_Ctrl_Params::setParamsStep1 FILE: /home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/ctrls/classes/class.ctrl.ajax.php[183]
+TRACE[6] CLASS___: DUPX_Ctrl_ajax::actions    FILE: /home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/ctrls/classes/class.ctrl.ajax.php[95]
+TRACE[7] CLASS___: DUPX_Ctrl_ajax::controller FILE: /home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/main.installer.php[56]
+
+GET USERS ON CURRENT DATABASE FAILED. Users tables doesn't exist, continue with orverwrite installation but with option keep users disabled
+
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[/home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.08147]  MESSAGE:END RENDER PAGE
+LOG-TIME[/home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[/home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.10313]  MESSAGE:END RENDER PAGE
+LOG-TIME[/home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Overwrite Install" RESULT: soft warning
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Package Size" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "/home/dre3ey2vp967/public_html/bisaapp.com"
+--------------------------------------
+LOG-TIME[DELTA:   0.41971]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00015]  MESSAGE:TEST "Wordfence" RESULT: hard warning
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.01248]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.04532]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00011]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00132]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00179]  MESSAGE:TEST "Database Version" RESULT: passed
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00046]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00033]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00151]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+DB QUERY [ERROR][/home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/classes/database/class.db.php:645] MSG: SELECT command denied to user 'i7489916_wp9'@'localhost' for table `mysql`.`user`
+	SQL: SELECT max_questions, max_updates, max_connections FROM mysql.user WHERE user = 'i7489916_wp9' AND host = 'localhost'
+TRACE[1] CLASS___: DUPX_DB::mysqli_query      FILE: /home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/classes/validation/class.validation.database.service.php[742]
+TRACE[2] CLASS___: DUPX_Validation_database_service->getUserResources FILE: /home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/classes/validation/database-tests/class.validation.test.db.user.resources.php[28]
+TRACE[3] CLASS___: DUPX_Validation_test_db_user_resources->runTest FILE: /home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/classes/validation/class.validation.abstract.item.php[46]
+TRACE[4] CLASS___: DUPX_Validation_abstract_item->test FILE: /home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/classes/validation/class.validation.manager.php[232]
+TRACE[5] CLASS___: DUPX_Validation_manager->runTests FILE: /home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/classes/validation/class.validation.manager.php[205]
+TRACE[6] CLASS___: DUPX_Validation_manager->getValidateData FILE: /home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/ctrls/classes/class.ctrl.ajax.php[173]
+TRACE[7] CLASS___: DUPX_Ctrl_ajax::actions    FILE: /home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/ctrls/classes/class.ctrl.ajax.php[95]
+TRACE[8] CLASS___: DUPX_Ctrl_ajax::controller FILE: /home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/main.installer.php[56]
+
+LOG-TIME[DELTA:   0.00047]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.03075]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00072]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00101]  MESSAGE:TEST "Character Set and Collation Support" RESULT: soft warning
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: skip
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00130]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: soft warning
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+DEFAULT DB_CHARSET [utf8] isn't valid, update DB_CHARSET to latin1 and DB_COLLATE set empty
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[/home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[/home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+[PHP ERR][E_DEPRECATED] MSG:mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated [CODE:8192|FILE:/home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/classes/database/class.db.functions.php|LINE:498]
+DB QUERY [ERROR][/home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/classes/database/class.db.php:645] MSG: Incorrect database name ''
+	SQL: SHOW TABLES FROM `` WHERE `Tables_in_` IN ('pegvj_users','pegvj_usermeta')
+TRACE[1] CLASS___: DUPX_DB::mysqli_query      FILE: /home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/classes/database/class.db.functions.php[506]
+TRACE[2] CLASS___: DUPX_DB_Functions->tablesExist FILE: /home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/classes/class.installer.state.php[362]
+TRACE[3] CLASS___: DUPX_InstallerState->getAdminUsersOnOverwriteDatabase FILE: /home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/classes/class.installer.state.php[118]
+TRACE[4] CLASS___: DUPX_InstallerState->checkState FILE: /home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/ctrls/classes/class.ctrl.params.php[173]
+TRACE[5] CLASS___: DUPX_Ctrl_Params::setParamsStep1 FILE: /home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/ctrls/classes/class.ctrl.ajax.php[183]
+TRACE[6] CLASS___: DUPX_Ctrl_ajax::actions    FILE: /home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/ctrls/classes/class.ctrl.ajax.php[95]
+TRACE[7] CLASS___: DUPX_Ctrl_ajax::controller FILE: /home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/main.installer.php[56]
+
+GET USERS ON CURRENT DATABASE FAILED. Users tables doesn't exist, continue with orverwrite installation but with option keep users disabled
+
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "/home/dre3ey2vp967/public_html/bisaapp.com"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-1 START @ 02:32:36
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "Bisa Health App"
+HOME URL NEW________: "https://bisaapp.com"
+SITE URL NEW________: "https://bisaapp.com"
+CONTENT URL NEW_____: "https://bisaapp.com/wp-content"
+UPLOAD URL NEW______: "https://bisaapp.com/wp-content/uploads"
+PLUGINS URL NEW_____: "https://bisaapp.com/wp-content/plugins"
+MUPLUGINS URL NEW___: "https://bisaapp.com/wp-content/mu-plugins"
+HOME PATH NEW_______: "/home/dre3ey2vp967/public_html/bisaapp.com"
+SITE PATH NEW_______: "/home/dre3ey2vp967/public_html/bisaapp.com"
+CONTENT PATH NEW____: "/home/dre3ey2vp967/public_html/bisaapp.com/wp-content"
+UPLOAD PATH NEW_____: "/home/dre3ey2vp967/public_html/bisaapp.com/wp-content/uploads"
+PLUGINS PATH NEW____: "/home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins"
+MUPLUGINS PATH NEW__: "/home/dre3ey2vp967/public_html/bisaapp.com/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "duparchive"
+SET DIR PERMS_______: true
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: true
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "/home/dre3ey2vp967/public_html/bisaapp.com/dup-installer"
+	FILE: "/home/dre3ey2vp967/public_html/bisaapp.com/20240531_bisahealthapp_[HASH]_20240531134738_installer-backup.php"
+	FILE: "/home/dre3ey2vp967/public_html/bisaapp.com/20240531_bisahealthapp_[HASH]_20240531134738_archive.daf"
+	FILE: "/home/dre3ey2vp967/public_html/bisaapp.com/installer.php"
+	FILE: "/home/dre3ey2vp967/public_html/bisaapp.com/dup-installer-bootlog__3788a36-31134738.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20240531_bisahealthapp_[HASH]_20240531134738_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: DUP ARCHIVE >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> START
+RESET CONFIG FILES: I'M GOING TO MOVE CONFIG FILE "wp-config.php" IN ORIGINAL FOLDER
+	CONFIG FILE HAS BEEN RESET
+RESET CONFIG FILES: I'M GOING TO MOVE CONFIG FILE ".htaccess" IN ORIGINAL FOLDER
+	CONFIG FILE HAS BEEN RESET
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+SQL FILE NOT FOUND SO ADD TO EXTRACTION
+ARCHIVE OFFSET 0
+DAWN START EXPAND
+DUP EXPAND OFFSET 30
+CHUNK COMPLETE - RUNTIME: 4.3076 sec. - Files processed: 930 of 14,867
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10969625
+DAWN CONTINUE EXPAND
+#### seeking archive offset 10969625
+DUP EXPAND OFFSET 10969625
+--------------------------------------
+PATHS MAPPING : "/home/dre3ey2vp967/public_html/bisaapp.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.7837 sec. - Files processed: 3,136 of 14,867
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 28011292
+DAWN CONTINUE EXPAND
+#### seeking archive offset 28011292
+DUP EXPAND OFFSET 28011292
+--------------------------------------
+PATHS MAPPING : "/home/dre3ey2vp967/public_html/bisaapp.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.7958 sec. - Files processed: 4,607 of 14,867
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 40087093
+DAWN CONTINUE EXPAND
+#### seeking archive offset 40087093
+DUP EXPAND OFFSET 40087093
+--------------------------------------
+PATHS MAPPING : "/home/dre3ey2vp967/public_html/bisaapp.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.7951 sec. - Files processed: 7,336 of 14,867
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 57200908
+DAWN CONTINUE EXPAND
+#### seeking archive offset 57200908
+DUP EXPAND OFFSET 57200908
+--------------------------------------
+PATHS MAPPING : "/home/dre3ey2vp967/public_html/bisaapp.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.8026 sec. - Files processed: 9,018 of 14,867
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 71157208
+DAWN CONTINUE EXPAND
+#### seeking archive offset 71157208
+DUP EXPAND OFFSET 71157208
+--------------------------------------
+PATHS MAPPING : "/home/dre3ey2vp967/public_html/bisaapp.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.8833 sec. - Files processed: 12,312 of 14,867
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 95929568
+DAWN CONTINUE EXPAND
+#### seeking archive offset 95929568
+DUP EXPAND OFFSET 95929568
+--------------------------------------
+PATHS MAPPING : "/home/dre3ey2vp967/public_html/bisaapp.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.7283 sec. - Files processed: 12,505 of 14,867
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 146059775
+DAWN CONTINUE EXPAND
+#### seeking archive offset 146059775
+DUP EXPAND OFFSET 146059775
+--------------------------------------
+PATHS MAPPING : "/home/dre3ey2vp967/public_html/bisaapp.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.8434 sec. - Files processed: 12,540 of 14,867
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 197500582
+DAWN CONTINUE EXPAND
+#### seeking archive offset 197500582
+DUP EXPAND OFFSET 197500582
+--------------------------------------
+PATHS MAPPING : "/home/dre3ey2vp967/public_html/bisaapp.com"
+--------------------------------------
+DUP EXPAND DONE
+
+
+EXTRACTION: DUP ARCHIVE >>> DONE
+
+EXTRACTION COMPLETE @ 02:33:16 - RUNTIME: 40.2468 sec. - Files processed: 14,867 of 14,867
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 logj_
+
+
+
+********************************************************************************
+* DUPLICATOR LITE: INSTALL-LOG
+* STEP-2 START @ 02:33:16
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "logj_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "latin1"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "logj_actionscheduler_actions"____________________[ROWS:     232] [EXTRACT|REPLACE] [INST NAME: logj_actionscheduler_actions]
+TABLE "logj_actionscheduler_claims"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: logj_actionscheduler_claims]
+TABLE "logj_actionscheduler_groups"_____________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: logj_actionscheduler_groups]
+TABLE "logj_actionscheduler_logs"_______________________[ROWS:     676] [EXTRACT|REPLACE] [INST NAME: logj_actionscheduler_logs]
+TABLE "logj_commentmeta"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: logj_commentmeta]
+TABLE "logj_comments"___________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: logj_comments]
+TABLE "logj_depicter_documents"_________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: logj_depicter_documents]
+TABLE "logj_depicter_meta"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: logj_depicter_meta]
+TABLE "logj_depicter_options"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: logj_depicter_options]
+TABLE "logj_duplicator_packages"________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: logj_duplicator_packages]
+TABLE "logj_e_events"___________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: logj_e_events]
+TABLE "logj_e_submissions"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: logj_e_submissions]
+TABLE "logj_e_submissions_actions_log"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: logj_e_submissions_actions_log]
+TABLE "logj_e_submissions_values"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: logj_e_submissions_values]
+TABLE "logj_frmt_form_entry"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: logj_frmt_form_entry]
+TABLE "logj_frmt_form_entry_meta"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: logj_frmt_form_entry_meta]
+TABLE "logj_frmt_form_reports"__________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: logj_frmt_form_reports]
+TABLE "logj_frmt_form_views"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: logj_frmt_form_views]
+TABLE "logj_links"______________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: logj_links]
+TABLE "logj_options"____________________________________[ROWS:     336] [EXTRACT|REPLACE] [INST NAME: logj_options]
+TABLE "logj_postmeta"___________________________________[ROWS:    4750] [EXTRACT|REPLACE] [INST NAME: logj_postmeta]
+TABLE "logj_posts"______________________________________[ROWS:     647] [EXTRACT|REPLACE] [INST NAME: logj_posts]
+TABLE "logj_termmeta"___________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: logj_termmeta]
+TABLE "logj_terms"______________________________________[ROWS:       7] [EXTRACT|REPLACE] [INST NAME: logj_terms]
+TABLE "logj_term_relationships"_________________________[ROWS:      25] [EXTRACT|REPLACE] [INST NAME: logj_term_relationships]
+TABLE "logj_term_taxonomy"______________________________[ROWS:       7] [EXTRACT|REPLACE] [INST NAME: logj_term_taxonomy]
+TABLE "logj_usermeta"___________________________________[ROWS:      32] [EXTRACT|REPLACE] [INST NAME: logj_usermeta]
+TABLE "logj_users"______________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: logj_users]
+TABLE "logj_wfblockediplog"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: logj_wfblockediplog]
+TABLE "logj_wfblocks7"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: logj_wfblocks7]
+TABLE "logj_wfconfig"___________________________________[ROWS:     226] [EXTRACT|REPLACE] [INST NAME: logj_wfconfig]
+TABLE "logj_wfcrawlers"_________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: logj_wfcrawlers]
+TABLE "logj_wffilechanges"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: logj_wffilechanges]
+TABLE "logj_wffilemods"_________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: logj_wffilemods]
+TABLE "logj_wfhits"_____________________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: logj_wfhits]
+TABLE "logj_wfhoover"___________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: logj_wfhoover]
+TABLE "logj_wfissues"___________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: logj_wfissues]
+TABLE "logj_wfknownfilelist"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: logj_wfknownfilelist]
+TABLE "logj_wflivetraffichuman"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: logj_wflivetraffichuman]
+TABLE "logj_wflocs"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: logj_wflocs]
+TABLE "logj_wflogins"___________________________________[ROWS:      20] [EXTRACT|REPLACE] [INST NAME: logj_wflogins]
+TABLE "logj_wfls_2fa_secrets"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: logj_wfls_2fa_secrets]
+TABLE "logj_wfls_role_counts"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: logj_wfls_role_counts]
+TABLE "logj_wfls_settings"______________________________[ROWS:      30] [EXTRACT|REPLACE] [INST NAME: logj_wfls_settings]
+TABLE "logj_wfnotifications"____________________________[ROWS:       7] [EXTRACT|REPLACE] [INST NAME: logj_wfnotifications]
+TABLE "logj_wfpendingissues"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: logj_wfpendingissues]
+TABLE "logj_wfreversecache"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: logj_wfreversecache]
+TABLE "logj_wfsecurityevents"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: logj_wfsecurityevents]
+TABLE "logj_wfsnipcache"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: logj_wfsnipcache]
+TABLE "logj_wfstatus"___________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: logj_wfstatus]
+TABLE "logj_wftrafficrates"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: logj_wftrafficrates]
+TABLE "logj_wfwaffailures"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: logj_wfwaffailures]
+TABLE "logj_wpmailsmtp_debug_events"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: logj_wpmailsmtp_debug_events]
+TABLE "logj_wpmailsmtp_tasks_meta"______________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: logj_wpmailsmtp_tasks_meta]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.6.17 -- Build Server: 10.6.17
+FILE SIZE:	dup-database__[HASH].sql (21.89MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE-GLOBAL:	NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+DROP TABLE pegvj_actionscheduler_actions
+DROP TABLE pegvj_actionscheduler_claims
+DROP TABLE pegvj_actionscheduler_groups
+DROP TABLE pegvj_actionscheduler_logs
+DROP TABLE pegvj_addonlibrary_addons
+DROP TABLE pegvj_addonlibrary_categories
+DROP TABLE pegvj_aiowps_audit_log
+DROP TABLE pegvj_aiowps_debug_log
+DROP TABLE pegvj_aiowps_events
+DROP TABLE pegvj_aiowps_global_meta
+DROP TABLE pegvj_aiowps_logged_in_users
+DROP TABLE pegvj_aiowps_login_lockdown
+DROP TABLE pegvj_aiowps_message_store
+DROP TABLE pegvj_aiowps_permanent_block
+DROP TABLE pegvj_cleantalk_ac_log
+DROP TABLE pegvj_cleantalk_sessions
+DROP TABLE pegvj_cleantalk_sfw
+DROP TABLE pegvj_cleantalk_sfw_logs
+DROP TABLE pegvj_cleantalk_spamscan_logs
+DROP TABLE pegvj_cleantalk_ua_bl
+DROP TABLE pegvj_commentmeta
+DROP TABLE pegvj_comments
+DROP TABLE pegvj_duplicator_packages
+DROP TABLE pegvj_e_events
+DROP TABLE pegvj_e_submissions
+DROP TABLE pegvj_e_submissions_actions_log
+DROP TABLE pegvj_e_submissions_values
+DROP TABLE pegvj_links
+DROP TABLE pegvj_options
+DROP TABLE pegvj_postmeta
+DROP TABLE pegvj_posts
+DROP TABLE pegvj_term_relationships
+DROP TABLE pegvj_term_taxonomy
+DROP TABLE pegvj_termmeta
+DROP TABLE pegvj_terms
+DROP TABLE pegvj_tm_taskmeta
+DROP TABLE pegvj_tm_tasks
+DROP TABLE pegvj_usermeta
+DROP TABLE pegvj_users
+DROP TABLE pegvj_wfblockediplog
+DROP TABLE pegvj_wfblocks7
+DROP TABLE pegvj_wfconfig
+DROP TABLE pegvj_wfcrawlers
+DROP TABLE pegvj_wffilechanges
+DROP TABLE pegvj_wffilemods
+DROP TABLE pegvj_wfhits
+DROP TABLE pegvj_wfhoover
+DROP TABLE pegvj_wfissues
+DROP TABLE pegvj_wfknownfilelist
+DROP TABLE pegvj_wflivetraffichuman
+DROP TABLE pegvj_wflocs
+DROP TABLE pegvj_wflogins
+DROP TABLE pegvj_wfls_2fa_secrets
+DROP TABLE pegvj_wfls_role_counts
+DROP TABLE pegvj_wfls_settings
+DROP TABLE pegvj_wfnotifications
+DROP TABLE pegvj_wfpendingissues
+DROP TABLE pegvj_wfreversecache
+DROP TABLE pegvj_wfsecurityevents
+DROP TABLE pegvj_wfsnipcache
+DROP TABLE pegvj_wfstatus
+DROP TABLE pegvj_wftrafficrates
+DROP TABLE pegvj_wfwaffailures
+DROP TABLE pegvj_wpforms_tasks_meta
+DROP TABLE pegvj_wpmailsmtp_debug_events
+DROP TABLE pegvj_wpmailsmtp_tasks_meta
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`i7489916_wp9`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	66
+RENAMED TABLES:	0
+QUERIES RAN:	484
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "logj_actionscheduler_actions"____________________[ROWS:   228]
+TABLE "logj_actionscheduler_claims"_____________________[ROWS:     0]
+TABLE "logj_actionscheduler_groups"_____________________[ROWS:     3]
+TABLE "logj_actionscheduler_logs"_______________________[ROWS:   664]
+TABLE "logj_commentmeta"________________________________[ROWS:     0]
+TABLE "logj_comments"___________________________________[ROWS:     1]
+TABLE "logj_depicter_documents"_________________________[ROWS:     1]
+TABLE "logj_depicter_meta"______________________________[ROWS:     0]
+TABLE "logj_depicter_options"___________________________[ROWS:     0]
+TABLE "logj_duplicator_packages"________________________[ROWS:     1]
+TABLE "logj_e_events"___________________________________[ROWS:     0]
+TABLE "logj_e_submissions"______________________________[ROWS:     0]
+TABLE "logj_e_submissions_actions_log"__________________[ROWS:     0]
+TABLE "logj_e_submissions_values"_______________________[ROWS:     0]
+TABLE "logj_frmt_form_entry"____________________________[ROWS:     0]
+TABLE "logj_frmt_form_entry_meta"_______________________[ROWS:     0]
+TABLE "logj_frmt_form_reports"__________________________[ROWS:     1]
+TABLE "logj_frmt_form_views"____________________________[ROWS:     0]
+TABLE "logj_links"______________________________________[ROWS:     0]
+TABLE "logj_options"____________________________________[ROWS:   337]
+TABLE "logj_postmeta"___________________________________[ROWS:  4750]
+TABLE "logj_posts"______________________________________[ROWS:   647]
+TABLE "logj_term_relationships"_________________________[ROWS:    25]
+TABLE "logj_term_taxonomy"______________________________[ROWS:     7]
+TABLE "logj_termmeta"___________________________________[ROWS:     0]
+TABLE "logj_terms"______________________________________[ROWS:     7]
+TABLE "logj_usermeta"___________________________________[ROWS:    32]
+TABLE "logj_users"______________________________________[ROWS:     1]
+TABLE "logj_wfblockediplog"_____________________________[ROWS:     0]
+TABLE "logj_wfblocks7"__________________________________[ROWS:     0]
+TABLE "logj_wfconfig"___________________________________[ROWS:   226]
+TABLE "logj_wfcrawlers"_________________________________[ROWS:     0]
+TABLE "logj_wffilechanges"______________________________[ROWS:     0]
+TABLE "logj_wffilemods"_________________________________[ROWS:     0]
+TABLE "logj_wfhits"_____________________________________[ROWS:     3]
+TABLE "logj_wfhoover"___________________________________[ROWS:     0]
+TABLE "logj_wfissues"___________________________________[ROWS:     0]
+TABLE "logj_wfknownfilelist"____________________________[ROWS:     0]
+TABLE "logj_wflivetraffichuman"_________________________[ROWS:     0]
+TABLE "logj_wflocs"_____________________________________[ROWS:     0]
+TABLE "logj_wflogins"___________________________________[ROWS:    20]
+TABLE "logj_wfls_2fa_secrets"___________________________[ROWS:     0]
+TABLE "logj_wfls_role_counts"___________________________[ROWS:     0]
+TABLE "logj_wfls_settings"______________________________[ROWS:    30]
+TABLE "logj_wfnotifications"____________________________[ROWS:     7]
+TABLE "logj_wfpendingissues"____________________________[ROWS:     0]
+TABLE "logj_wfreversecache"_____________________________[ROWS:     0]
+TABLE "logj_wfsecurityevents"___________________________[ROWS:     0]
+TABLE "logj_wfsnipcache"________________________________[ROWS:     0]
+TABLE "logj_wfstatus"___________________________________[ROWS:     0]
+TABLE "logj_wftrafficrates"_____________________________[ROWS:     0]
+TABLE "logj_wfwaffailures"______________________________[ROWS:     0]
+TABLE "logj_wpmailsmtp_debug_events"____________________[ROWS:     0]
+TABLE "logj_wpmailsmtp_tasks_meta"______________________[ROWS:     1]
+
+INSERT DATA RUNTIME: 2.9921 sec.
+STEP-2 COMPLETE @ 02:33:19 - RUNTIME: 2.9922 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: /home/dre3ey2vp967/public_html/new.bisaapp.com REPLACE: /home/dre3ey2vp967/public_html/bisaapp.com [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: https://new.bisaapp.com REPLACE: https://bisaapp.com [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR LITE: INSTALL-LOG
+STEP-3 START @ 02:33:20
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"latin1"
+CHARSET CLIENT:	"latin1"
+********************************************************************************
+OPTIONS:
+SKIP PATH REPLACE_____: false
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 1], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = 1], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 256M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/uploads], [inWpConfig = 1]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+[PHP ERR][E_WARNING] MSG:foreach() argument must be of type array|object, string given [CODE:2|FILE:/home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/src/Core/Deploy/Database/DbCleanup.php|LINE:95]
+CLEAN OPTIONS [logj_options]
+	`option_name` = "duplicator_plugin_data_stats"
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+DATABASE OPTIONS DELETED [ROWS:    34]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     1]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "logj_actionscheduler_actions"____________________[ROWS:   228][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dre3ey2vp967/public_html/new.bisaapp.com" ==> "/home/dre3ey2vp967/public_html/bisaapp.com"
+	SEARCH[urlnd]  2:"https://new.bisaapp.com" =========================> "https://bisaapp.com"
+	CHUNK ACTION: CURRENT [search_replace][logj_actionscheduler_actions][0]
+
+EVALUATE TABLE: "logj_actionscheduler_claims"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "logj_actionscheduler_groups"_____________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dre3ey2vp967/public_html/new.bisaapp.com" ==> "/home/dre3ey2vp967/public_html/bisaapp.com"
+	SEARCH[urlnd]  2:"https://new.bisaapp.com" =========================> "https://bisaapp.com"
+	CHUNK ACTION: CURRENT [search_replace][logj_actionscheduler_groups][0]
+
+EVALUATE TABLE: "logj_actionscheduler_logs"_______________________[ROWS:   664][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dre3ey2vp967/public_html/new.bisaapp.com" ==> "/home/dre3ey2vp967/public_html/bisaapp.com"
+	SEARCH[urlnd]  2:"https://new.bisaapp.com" =========================> "https://bisaapp.com"
+	CHUNK ACTION: CURRENT [search_replace][logj_actionscheduler_logs][0]
+
+EVALUATE TABLE: "logj_commentmeta"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "logj_comments"___________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dre3ey2vp967/public_html/new.bisaapp.com" ==> "/home/dre3ey2vp967/public_html/bisaapp.com"
+	SEARCH[urlnd]  2:"https://new.bisaapp.com" =========================> "https://bisaapp.com"
+	CHUNK ACTION: CURRENT [search_replace][logj_comments][0]
+
+EVALUATE TABLE: "logj_depicter_documents"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dre3ey2vp967/public_html/new.bisaapp.com" ==> "/home/dre3ey2vp967/public_html/bisaapp.com"
+	SEARCH[urlnd]  2:"https://new.bisaapp.com" =========================> "https://bisaapp.com"
+	CHUNK ACTION: CURRENT [search_replace][logj_depicter_documents][0]
+
+EVALUATE TABLE: "logj_depicter_meta"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "logj_depicter_options"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "logj_duplicator_packages"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "logj_e_events"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "logj_e_submissions"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "logj_e_submissions_actions_log"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "logj_e_submissions_values"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "logj_frmt_form_entry"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "logj_frmt_form_entry_meta"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "logj_frmt_form_reports"__________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dre3ey2vp967/public_html/new.bisaapp.com" ==> "/home/dre3ey2vp967/public_html/bisaapp.com"
+	SEARCH[urlnd]  2:"https://new.bisaapp.com" =========================> "https://bisaapp.com"
+	CHUNK ACTION: CURRENT [search_replace][logj_frmt_form_reports][0]
+
+EVALUATE TABLE: "logj_frmt_form_views"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "logj_links"______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "logj_options"____________________________________[ROWS:   303][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dre3ey2vp967/public_html/new.bisaapp.com" ==> "/home/dre3ey2vp967/public_html/bisaapp.com"
+	SEARCH[urlnd]  2:"https://new.bisaapp.com" =========================> "https://bisaapp.com"
+	CHUNK ACTION: CURRENT [search_replace][logj_options][0]
+
+EVALUATE TABLE: "logj_postmeta"___________________________________[ROWS:  4750][PG:   5][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dre3ey2vp967/public_html/new.bisaapp.com" ==> "/home/dre3ey2vp967/public_html/bisaapp.com"
+	SEARCH[urlnd]  2:"https://new.bisaapp.com" =========================> "https://bisaapp.com"
+	CHUNK ACTION: CURRENT [search_replace][logj_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][logj_postmeta][1]
+	CHUNK ACTION: CURRENT [search_replace][logj_postmeta][2]
+	CHUNK ACTION: CURRENT [search_replace][logj_postmeta][3]
+	CHUNK ACTION: CURRENT [search_replace][logj_postmeta][4]
+
+EVALUATE TABLE: "logj_posts"______________________________________[ROWS:   647][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dre3ey2vp967/public_html/new.bisaapp.com" ==> "/home/dre3ey2vp967/public_html/bisaapp.com"
+	SEARCH[urlnd]  2:"https://new.bisaapp.com" =========================> "https://bisaapp.com"
+	CHUNK ACTION: CURRENT [search_replace][logj_posts][0]
+
+EVALUATE TABLE: "logj_termmeta"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "logj_terms"______________________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dre3ey2vp967/public_html/new.bisaapp.com" ==> "/home/dre3ey2vp967/public_html/bisaapp.com"
+	SEARCH[urlnd]  2:"https://new.bisaapp.com" =========================> "https://bisaapp.com"
+	CHUNK ACTION: CURRENT [search_replace][logj_terms][0]
+
+EVALUATE TABLE: "logj_term_relationships"_________________________[ROWS:    25][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "logj_term_taxonomy"______________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dre3ey2vp967/public_html/new.bisaapp.com" ==> "/home/dre3ey2vp967/public_html/bisaapp.com"
+	SEARCH[urlnd]  2:"https://new.bisaapp.com" =========================> "https://bisaapp.com"
+	CHUNK ACTION: CURRENT [search_replace][logj_term_taxonomy][0]
+
+EVALUATE TABLE: "logj_usermeta"___________________________________[ROWS:    32][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dre3ey2vp967/public_html/new.bisaapp.com" ==> "/home/dre3ey2vp967/public_html/bisaapp.com"
+	SEARCH[urlnd]  2:"https://new.bisaapp.com" =========================> "https://bisaapp.com"
+	CHUNK ACTION: CURRENT [search_replace][logj_usermeta][0]
+
+EVALUATE TABLE: "logj_users"______________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dre3ey2vp967/public_html/new.bisaapp.com" ==> "/home/dre3ey2vp967/public_html/bisaapp.com"
+	SEARCH[urlnd]  2:"https://new.bisaapp.com" =========================> "https://bisaapp.com"
+	CHUNK ACTION: CURRENT [search_replace][logj_users][0]
+
+EVALUATE TABLE: "logj_wfblockediplog"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "logj_wfblocks7"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "logj_wfconfig"___________________________________[ROWS:   226][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dre3ey2vp967/public_html/new.bisaapp.com" ==> "/home/dre3ey2vp967/public_html/bisaapp.com"
+	SEARCH[urlnd]  2:"https://new.bisaapp.com" =========================> "https://bisaapp.com"
+	CHUNK ACTION: CURRENT [search_replace][logj_wfconfig][0]
+
+EVALUATE TABLE: "logj_wfcrawlers"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "logj_wffilechanges"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "logj_wffilemods"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "logj_wfhits"_____________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dre3ey2vp967/public_html/new.bisaapp.com" ==> "/home/dre3ey2vp967/public_html/bisaapp.com"
+	SEARCH[urlnd]  2:"https://new.bisaapp.com" =========================> "https://bisaapp.com"
+	CHUNK ACTION: CURRENT [search_replace][logj_wfhits][0]
+
+EVALUATE TABLE: "logj_wfhoover"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "logj_wfissues"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "logj_wfknownfilelist"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "logj_wflivetraffichuman"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "logj_wflocs"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "logj_wflogins"___________________________________[ROWS:    20][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dre3ey2vp967/public_html/new.bisaapp.com" ==> "/home/dre3ey2vp967/public_html/bisaapp.com"
+	SEARCH[urlnd]  2:"https://new.bisaapp.com" =========================> "https://bisaapp.com"
+	CHUNK ACTION: CURRENT [search_replace][logj_wflogins][0]
+
+EVALUATE TABLE: "logj_wfls_2fa_secrets"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "logj_wfls_role_counts"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "logj_wfls_settings"______________________________[ROWS:    30][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dre3ey2vp967/public_html/new.bisaapp.com" ==> "/home/dre3ey2vp967/public_html/bisaapp.com"
+	SEARCH[urlnd]  2:"https://new.bisaapp.com" =========================> "https://bisaapp.com"
+	CHUNK ACTION: CURRENT [search_replace][logj_wfls_settings][0]
+
+EVALUATE TABLE: "logj_wfnotifications"____________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dre3ey2vp967/public_html/new.bisaapp.com" ==> "/home/dre3ey2vp967/public_html/bisaapp.com"
+	SEARCH[urlnd]  2:"https://new.bisaapp.com" =========================> "https://bisaapp.com"
+	CHUNK ACTION: CURRENT [search_replace][logj_wfnotifications][0]
+
+EVALUATE TABLE: "logj_wfpendingissues"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "logj_wfreversecache"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "logj_wfsecurityevents"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "logj_wfsnipcache"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "logj_wfstatus"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "logj_wftrafficrates"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "logj_wfwaffailures"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "logj_wpmailsmtp_debug_events"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "logj_wpmailsmtp_tasks_meta"______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dre3ey2vp967/public_html/new.bisaapp.com" ==> "/home/dre3ey2vp967/public_html/bisaapp.com"
+	SEARCH[urlnd]  2:"https://new.bisaapp.com" =========================> "https://bisaapp.com"
+	CHUNK ACTION: CURRENT [search_replace][logj_wpmailsmtp_tasks_meta][0]
+--------------------------------------
+SCANNED:	Tables:54 	|	 Rows:6932 	|	 Cells:42898 
+UPDATED:	Tables:7 	|	 Rows:1167 	|	 Cells:1562 
+ERRORS:		0 
+RUNTIME:	2.747600 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:/home/dre3ey2vp967/public_html/bisaapp.com/wp-config.php
+New htaccess file created:/home/dre3ey2vp967/public_html/bisaapp.com/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE DB_NAME ""i7489916_wp9""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "latin1"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_DEBUG "false"
+	WP CONFIG UPDATE WP_TEMP_DIR "/home/dre3ey2vp967/public_html/bisaapp.com/wp-content/uploads"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+
+*** SET FOLDER PERMISSION AFTER EXTRACTION
+--------------------------------------
+PATHS MAPPING : "/home/dre3ey2vp967/public_html/bisaapp.com"
+--------------------------------------
+SET FOLDER PERMISSION DONE
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 02:33:23 - RUNTIME: 2.8981 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[/home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[/home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[/home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+====================================
+NEXT STEP NOTICES
+====================================
+-----------------------
+[WARNING] One or multiple config files were found in main WordPress folders
+	SECTIONS: general
+	LONG MSG: Config files in WordPress main folders may cause problems with accessing the site after the installation. The following config files were found: - /home/dre3ey2vp967/public_html/bisaapp.com/wp-includes/.htaccessPlease consider removing those files in case you have problems with your site after the installation.
+
+====================================
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[WARNING] One or multiple config files were found in main WordPress folders
+	SECTIONS: general
+	LONG MSG: Config files in WordPress main folders may cause problems with accessing the site after the installation. The following config files were found: - /home/dre3ey2vp967/public_html/bisaapp.com/wp-includes/.htaccessPlease consider removing those files in case you have problems with your site after the installation.
+
+-----------------------
+[NOTICE] Warnings or notices on WordPress front-end tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: /home/dre3ey2vp967/public_html/bisaapp.com/index.php
+E_WARNING Undefined array key "options"
+	FILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/elementor-pro/modules/theme-builder/widgets/site-logo.php[192]
+	--- TRACE ---
+	CLASS___: ElementorPro\Modules\ThemeBuilder\Widgets\Site_Logo->get_caption_source_optionsFILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/elementor-pro/modules/theme-builder/widgets/site-logo.php[102]
+	CLASS___: ElementorPro\Modules\ThemeBuilder\Widgets\Site_Logo->register_controlsFILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/elementor/includes/base/controls-stack.php[2376]
+	CLASS___: Elementor\Controls_Stack->init_controlsFILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/elementor/includes/base/widget-base.php[1064]
+	CLASS___: Elementor\Widget_Base->init_controlsFILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/elementor/includes/base/controls-stack.php[559]
+	CLASS___: Elementor\Controls_Stack->get_stackFILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/elementor/includes/base/widget-base.php[192]
+	CLASS___: Elementor\Widget_Base->get_stackFILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/elementor/includes/base/controls-stack.php[314]
+	CLASS___: Elementor\Controls_Stack->get_controlsFILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/elementor/includes/base/controls-stack.php[2465]
+	CLASS___: Elementor\Controls_Stack->sanitize_settingsFILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/elementor/includes/base/controls-stack.php[1148]
+	CLASS___: Elementor\Controls_Stack->get_dataFILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/elementor/includes/base/controls-stack.php[2208]
+	CLASS___: Elementor\Controls_Stack->get_init_settingsFILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/elementor/core/base/base-object.php[142]
+	CLASS___: Elementor\Core\Base\Base_Object->ensure_settingsFILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/elementor/core/base/base-object.php[40]
+	CLASS___: Elementor\Core\Base\Base_Object->get_settingsFILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/elementor/core/files/css/post.php[296]
+	CLASS___: Elementor\Core\Files\CSS\Post->render_stylesFILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/elementor/core/dynamic-tags/dynamic-css.php[36]
+	CLASS___: Elementor\Core\DynamicTags\Dynamic_CSS->render_stylesFILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/elementor/core/dynamic-tags/dynamic-css.php[40]
+	CLASS___: Elementor\Core\DynamicTags\Dynamic_CSS->render_stylesFILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/elementor/core/dynamic-tags/dynamic-css.php[40]
+	CLASS___: Elementor\Core\DynamicTags\Dynamic_CSS->render_stylesFILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/elementor/core/files/css/post.php[178]
+	CLASS___: Elementor\Core\Files\CSS\Post->render_cssFILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/elementor/core/files/css/base.php[680]
+	CLASS___: Elementor\Core\Files\CSS\Base->parse_contentFILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/elementor/core/files/base.php[180]
+	CLASS___: Elementor\Core\Files\Base->update_fileFILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/elementor/core/files/css/base.php[131]
+	CLASS___: Elementor\Core\Files\CSS\Base->updateFILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/elementor/core/files/css/base.php[227]
+	CLASS___: Elementor\Core\Files\CSS\Base->enqueueFILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/elementor/core/files/css/post.php[201]
+	CLASS___: Elementor\Core\Files\CSS\Post->enqueueFILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/elementor/core/dynamic-tags/manager.php[488]
+	CLASS___: Elementor\Core\DynamicTags\Manager->after_enqueue_post_cssFILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-includes/class-wp-hook.php[324]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-includes/class-wp-hook.php[348]
+	CLASS___: WP_Hook->do_action            FILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/elementor/core/files/css/base.php[274]
+	CLASS___: Elementor\Core\Files\CSS\Base->enqueueFILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/elementor/core/files/css/post.php[201]
+	CLASS___: Elementor\Core\Files\CSS\Post->enqueueFILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/elementor-pro/modules/theme-builder/classes/locations-manager.php[142]
+	CLASS___: ElementorPro\Modules\ThemeBuilder\Classes\Locations_Manager->enqueue_stylesFILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-includes/class-wp-hook.php[324]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-includes/class-wp-hook.php[348]
+	CLASS___: WP_Hook->do_action            FILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-includes/script-loader.php[2265]
+	FUNCTION: wp_enqueue_scripts            FILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-includes/class-wp-hook.php[324]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-includes/class-wp-hook.php[348]
+	CLASS___: WP_Hook->do_action            FILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-includes/general-template.php[3050]
+	FUNCTION: wp_head                       FILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/themes/hello-elementor/header.php[24]
+	FUNCTION: require_once                  FILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-includes/template.php[810]
+	FUNCTION: load_template                 FILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-includes/template.php[745]
+	FUNCTION: locate_template               FILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-includes/general-template.php[48]
+	FUNCTION: get_header                    FILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php[9]
+	FUNCTION: include                       FILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-includes/template-loader.php[106]
+	FUNCTION: require_once                  FILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-blog-header.php[19]
+	FUNCTION: require                       FILE: /home/dre3ey2vp967/public_html/bisaapp.com/index.php[17]
+	FUNCTION: require_once                  FILE: /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/wp_test_script_3788a36-31134738.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+
+
+====================================
+LOG-TIME[/home/dre3ey2vp967/public_html/bisaapp.com/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.04190]  MESSAGE:END RENDER PAGE

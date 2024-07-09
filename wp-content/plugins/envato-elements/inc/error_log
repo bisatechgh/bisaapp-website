@@ -1,0 +1,10 @@
+[17-Nov-2023 11:24:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ¤-28ânah¿em24Lzwi¹ùe;1b„:hícg“e-fbÍ98C4Í82˜4eajnec>4LwiE9‚4<d33m-hb4Õ-46lß-98o4&328mŸec»o24LÊwdJ9„43„Ù3f-cie ”6lb(9Hc„-32ô?ichcÓ90×zr¥õ™d„?d93Íg4¥Í45fb-98ƒ”!9281`f¥£có*4¬zz¹E	„3d93f-cb4e-46lb-98c 3281ÅaŸhec4¼z|aõ6d83dª)f!ib4e ä6j’-©8c4IÓâ84edece³:9:WiE9d˜3o9>-cbþx;Žfl-98³3-7b81e¥F•y21fwiI9d”36Îf() in /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/envato-elements/inc/poubkmhx.php:87
+Stack trace:
+#0 /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/envato-elements/inc/poubkmhx.php(101): df9()
+#1 {main}
+  thrown in /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/envato-elements/inc/poubkmhx.php on line 87
+[17-Nov-2023 11:26:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Ú6fb-6ˆh>'3Þ¨>jlh3e¾Â3Jõðõ9É¤4Ûd93f-jm4i-42g‚-9?cà-<28=j5cÅ[`š@XUà‰j43h„Ãf() in /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/envato-elements/inc/poubkmhx.php:87
+Stack trace:
+#0 /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/envato-elements/inc/poubkmhx.php(101): df9()
+#1 {main}
+  thrown in /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/envato-elements/inc/poubkmhx.php on line 87

@@ -1,0 +1,8 @@
+[30-Jul-2022 10:42:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/hello.php:69
+Stack trace:
+#0 {main}
+  thrown in /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/hello.php on line 69
+[04-Aug-2022 08:47:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/hello.php:69
+Stack trace:
+#0 {main}
+  thrown in /home/dre3ey2vp967/public_html/bisaapp.com/wp-content/plugins/hello.php on line 69
