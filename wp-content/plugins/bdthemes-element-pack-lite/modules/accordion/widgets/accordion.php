@@ -58,6 +58,10 @@ class Accordion extends Module_Base {
 		return 'https://youtu.be/DP3XNV1FEk0';
 	}
 
+	protected function is_dynamic_content(): bool {
+		return false;
+	}
+
 	protected function register_controls() {
 		$this->start_controls_section(
 			'section_title',
@@ -349,8 +353,7 @@ class Accordion extends Module_Base {
 					?>
 					<div <?php $this->print_render_attribute_string( $item_key ); ?>>
 						<<?php echo esc_attr( Utils::get_valid_html_tag( $settings['title_html_tag'] ) ); ?>
-							<?php $this->print_render_attribute_string( $tab_title_setting_key ); ?> id="
-							<?php echo esc_attr( strtolower( preg_replace( '#[ -]+#', '-', trim( preg_replace( "![^a-z0-9]+!i", " ", esc_attr( $acc_id ) ) ) ) ) ); ?>"
+							<?php $this->print_render_attribute_string( $tab_title_setting_key ); ?> id="<?php echo esc_attr( strtolower( preg_replace( '#[ -]+#', '-', trim( preg_replace( "![^a-z0-9]+!i", " ", esc_attr( $acc_id ) ) ) ) ) ); ?>"
 							data-accordion-index="<?php echo esc_attr( $index ); ?>" data-title="<?php echo esc_attr( strtolower( preg_replace( '#[ -]+#', '-', trim( preg_replace( "![^a-z0-9]+!i", " ", esc_html( $item['tab_title'] ) ) ) ) ) ); ?>">
 
 							<?php if ( $settings['accordion_icon']['value'] ) : ?>

@@ -45,8 +45,8 @@ var debounce = function (func, wait, immediate) {
  * Start used on Social Share
  */
 
-jQuery(document).ready(function() {
-    jQuery(".bdt-ss-link").on("click", function() {
+jQuery(document).ready(function () {
+    jQuery(".bdt-ss-link").on("click", function () {
         var $temp = jQuery("<input>");
         jQuery("body").append($temp);
         $temp.val(jQuery(this).data("url")).select();
@@ -119,3 +119,54 @@ jQuery(document).ajaxComplete(function (event, request, settings) {
 /**
  * /Open Offcanvas on Mini Cart Update
  */
+
+
+jQuery(document).ready(function () {
+    
+    /**
+     * Open In a New Tab Feature
+     */
+    const element = {
+        'elementor-widget-bdt-post-grid-tab': {
+            'selectors': [
+                '.bdt-post-grid-desc-inner a',
+                '.bdt-post-grid-tab-readmore',
+            ]
+        },
+        'elementor-widget-bdt-post-grid': {
+            'selectors': [
+                '.bdt-post-grid-title a',
+            ]
+        },
+    };
+
+    Object.keys(element).forEach(function (key) {
+        if (jQuery('.' + key).length > 0) {
+            if (jQuery('.' + key).data('settings') !== undefined && jQuery('.' + key).data('settings').bdt_link_new_tab === 'yes') {
+                element[key].selectors.forEach(function (selector) {
+                    jQuery(selector).attr('target', '_blank');
+                });
+            }
+        }
+    });
+    /**
+     * /Open In a New Tab Feature
+     */
+
+    /** Toggle Pass */
+
+    jQuery('.bdt-pass-input-wrapper').find('i').on('click', function(){
+        if (jQuery(this).hasClass('fa-eye')){
+            jQuery(this).toggleClass("fa-eye-slash");
+        }
+        let input = jQuery(this).closest('.bdt-pass-input-wrapper').find('input');
+        if (input.attr("type") == "password") {
+            jQuery(input).attr("type", "text");
+        } else {
+            jQuery(input).attr("type", "password");
+        }
+    });
+
+    /** /Toggle Pass */
+
+});

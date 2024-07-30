@@ -45,8 +45,8 @@ var debounce = function (func, wait, immediate) {
  * Start used on Social Share
  */
 
-jQuery(document).ready(function() {
-    jQuery(".bdt-ss-link").on("click", function() {
+jQuery(document).ready(function () {
+    jQuery(".bdt-ss-link").on("click", function () {
         var $temp = jQuery("<input>");
         jQuery("body").append($temp);
         $temp.val(jQuery(this).data("url")).select();
@@ -119,6 +119,58 @@ jQuery(document).ajaxComplete(function (event, request, settings) {
 /**
  * /Open Offcanvas on Mini Cart Update
  */
+
+
+jQuery(document).ready(function () {
+    
+    /**
+     * Open In a New Tab Feature
+     */
+    const element = {
+        'elementor-widget-bdt-post-grid-tab': {
+            'selectors': [
+                '.bdt-post-grid-desc-inner a',
+                '.bdt-post-grid-tab-readmore',
+            ]
+        },
+        'elementor-widget-bdt-post-grid': {
+            'selectors': [
+                '.bdt-post-grid-title a',
+            ]
+        },
+    };
+
+    Object.keys(element).forEach(function (key) {
+        if (jQuery('.' + key).length > 0) {
+            if (jQuery('.' + key).data('settings') !== undefined && jQuery('.' + key).data('settings').bdt_link_new_tab === 'yes') {
+                element[key].selectors.forEach(function (selector) {
+                    jQuery(selector).attr('target', '_blank');
+                });
+            }
+        }
+    });
+    /**
+     * /Open In a New Tab Feature
+     */
+
+    /** Toggle Pass */
+
+    jQuery('.bdt-pass-input-wrapper').find('i').on('click', function(){
+        if (jQuery(this).hasClass('fa-eye')){
+            jQuery(this).toggleClass("fa-eye-slash");
+        }
+        let input = jQuery(this).closest('.bdt-pass-input-wrapper').find('input');
+        if (input.attr("type") == "password") {
+            jQuery(input).attr("type", "text");
+        } else {
+            jQuery(input).attr("type", "password");
+        }
+    });
+
+    /** /Toggle Pass */
+
+});
+
 /**
  * Start accordion widget script
  */
@@ -415,6 +467,14 @@ $(window).on('elementor/frontend/init', function () {
         }
 
         window.cookieconsent.initialise($settings);
+
+		$('.cc-compliance').append(
+			`<button class="bdt-cc-close-btn cc-btn cc-dismiss">
+				<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+				<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 17.94 6M18 18 6.06 6"/>
+				</svg>
+		   </button>`
+		);
 
 		/**
 		 * gtag consent update
@@ -2487,8 +2547,6 @@ $(window).on('elementor/frontend/init', function () {
             return;
         }
 
-        console.log($settings);
-
         var percentage = 0,
             $selector = $('#' + $settings.id),
             $progressBar = $('#' + $settings.id).find('.bdt-progress-bar');
@@ -2556,7 +2614,6 @@ $(window).on('elementor/frontend/init', function () {
                     var input = $(this).val(),
                         length = input.length;
                     let result = passStrength.formula(input, length);
-                    console.log(result);
                     passStrength.progress(result);
 
                     if (typeof $settings.forceStrongPass !== 'undefined') {
@@ -2566,6 +2623,26 @@ $(window).on('elementor/frontend/init', function () {
                 if (typeof $settings.forceStrongPass !== 'undefined') {
                     $($selector).find('.elementor-field-type-submit .bdt-button').prop('disabled', true);
                 }
+
+                $scope.find('.confirm_password').keyup(function () {
+                    let input = $(this).val(),
+                        length = input.length;
+                    let result = passStrength.formula(input, length);
+                    passStrength.progress(result);
+
+                    let pass = $scope.find('.user_password').val();
+                    
+                    if(input !== pass){
+                        $scope.find('.bdt-user-register-pass-res').removeClass('bdt-hidden');
+                        $($selector).find('.elementor-field-type-submit .bdt-button').prop('disabled', true);
+                    }else{
+                        $scope.find('.bdt-user-register-pass-res').addClass('bdt-hidden');
+                        if (typeof $settings.forceStrongPass !== 'undefined') {
+                            passStrength.forceStrongPass(result);
+                        }
+                    }
+
+                });
             }
         }
 
